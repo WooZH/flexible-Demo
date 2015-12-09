@@ -33,6 +33,7 @@ gulp.task('default', function() {
     border: 1px solid #ddd; /*no*/
 }
 </pre>
+
 >@**px2rem**处理之后将会变成：(插件有点小问题，当css用标签名定义font-size的时候会被编译rem单位)
 
 <pre>
