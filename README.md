@@ -2,14 +2,14 @@
 
 @for [w3cplus - 使用Flexible实现手淘H5页面的终端适配] (http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html) 
 
-###完整引用举例：
+##完整引用举例：
 
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version}}/??flexible_css.js,flexible.js"></script>
 
-###官方git [lib.flexible](https://github.com/amfe/lib-flexible)
+##官方 [lib.flexible](https://github.com/amfe/lib-flexible)
 移动端自适应方案
 
-###gulp插件配合
+##gulp插件配合
 > 配合gulp插件解决px -> rem 的转换
 
 <pre>
