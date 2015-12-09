@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/**
+ *      设置内嵌的元素在 3D 空间如何呈现：保留 3D
+ *@example      -webkit-transform-style: preserve-3d;
+ *
+ *      （设置进行转换的元素的背面在面对用户时是否可见：隐藏）
+ *@example      -webkit-backface-visibility: hidden;
+ *
+ *      iOS 点击会慢 300ms 问题
+ *@example     -webkit-transform-style: preserve-3d;-webkit-backface-visibility: hidden;
+ *
+ *      禁止 iOS 弹出各种操作窗口
+ *@example     -webkit-touch-callout:none
+ *
+ *      禁止用户选中文字
+ *@exmaple      -webkit-user-select:none
+ */
+
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html *{outline:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+html,body{ font-family: "Helvetica Neue", Helvetica, sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display: block;}
+audio,canvas,progress,video{display: inline-block;vertical-align: baseline;}
+audio:not([controls]){display: none;height: 0;}
+a{text-decoration: none;background: transparent;}
+a:active,a:hover{outline: 0;}
+img{border: 0;}
+svg:not(:root){overflow: hidden;}
+hr{height: 0;-moz-box-sizing: content-box;box-sizing: content-box;}
+button,input,optgroup,select,textarea{margin: 0;font-size:100%;}
+input{line-height: normal;outline: none; box-shadow: none; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #c8c8c8;}
+input:placeholder, textarea:placeholder {color: #c8c8c8;} 
+textarea{overflow: auto;}
+table{border-spacing: 0;border-collapse: collapse;}
+td,th{padding: 0;}
+ul,ol,li,dl,dd{ padding: 0px; margin: 0px; list-style: none;}
+h1,h2,h3,h4,h5,h6{ padding: 0px; margin: 0px; font-weight: 500;}
+.clear:after,.clear:before{content:" ";display:block;}
+.clear:after{clear:both}

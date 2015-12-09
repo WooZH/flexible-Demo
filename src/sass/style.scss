@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+$bgcolor: #f76240;
+
+.wrapper{
+    span{
+        display: block;
+        margin: 10px 20px 30px 40px;
+        padding: 40px 30px 20px 10px;
+        &.title1{
+            font-size: 44px; /*px*/
+        }
+        &.title2{
+            font-size: 40px; /*px*/
+        }
+        &.title3{
+            font-size: 36px; /*px*/
+        }
+        &.title4{
+            font-size: 32px; /*px*/
+        }
+        &.title5{
+            font-size: 28px; /*px*/
+        }
+        &.title6{
+            font-size: 24px; /*px*/
+        }
+    }
+}
