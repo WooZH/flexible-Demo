@@ -4,7 +4,7 @@
 
 ##完整引用举例：
 
-    <script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version}}/??flexible_css.js,flexible.js"></script>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 
 ##官方 [lib.flexible](https://github.com/amfe/lib-flexible)
 移动端自适应方案
