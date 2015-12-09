@@ -10,10 +10,10 @@
 移动端自适应方案
 
 ##flexible的实质
-｀flexible｀实际上就是能过｀JS｀来动态改写｀meta｀标签，｀html｀&｀body｀的｀font-size｀的值
+`flexible`实际上就是通过`JS`来动态改写`meta`标签，`html`&`body`的`font-size`的值；`html`多了`data-dpr`来现实不同设备下文字用`px`来定义字号，这样能免去`@media`定义N多判断解决文字大小的问题。(此处对于一站式响应的项目会有小坑，在iPad下`dpr`会为`1`会出现字号很小的情况，就看取舍。)
 
 ##gulp插件配合
-> 配合gulp插件解决px -> rem 的转换
+> 配合`gulp`插件解决`px` -> `rem` 的转换
 
 <pre>
 var gulp = require('gulp');
@@ -38,7 +38,7 @@ gulp.task('default', function() {
 }
 </pre>
 
->@**px2rem**处理之后将会变成：(插件有点小问题，当css用标签名定义font-size的时候会被编译rem单位)
+>@**px2rem**处理之后将会变成：(插件有点小问题，当`css`用标签名定义`font-size`的时候会被编译为`rem`单位)
 
 <pre>
 .selector {
