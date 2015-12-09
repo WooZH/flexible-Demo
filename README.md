@@ -9,6 +9,9 @@
 ##官方 [lib.flexible](https://github.com/amfe/lib-flexible)
 移动端自适应方案
 
+##flexible的实质
+｀flexible｀实际上就是能过｀JS｀来动态改写｀meta｀标签，｀html｀&｀body｀的｀font-size｀的值
+
 ##gulp插件配合
 > 配合gulp插件解决px -> rem 的转换
 
