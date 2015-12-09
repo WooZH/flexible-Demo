@@ -9,6 +9,7 @@
 ###官方git [lib.flexible](https://github.com/amfe/lib-flexible)
 移动端自适应方案
 
+###gulp插件配合
 > 配合gulp插件解决px -> rem 的转换
 
 <pre>
