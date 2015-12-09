@@ -1,5 +1,5 @@
 #flexible-Demo
-@for [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
+@exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
 
 ##w3cplus 博客
 @for [w3cplus - 使用Flexible实现手淘H5页面的终端适配] (http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html) 
