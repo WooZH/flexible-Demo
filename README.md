@@ -1,15 +1,9 @@
 #flexible-Demo
 @exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
 
-##w3cplus 博客
-@for [w3cplus - 使用Flexible实现手淘H5页面的终端适配] (http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html) 
-
 ##完整引用举例：
 
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
-
-##官方 [lib.flexible](https://github.com/amfe/lib-flexible)
-移动端自适应方案
 
 ##flexible的实质
 `flexible`实际上就是通过`JS`来动态改写`meta`标签，`html`&`body`的`font-size`的值；`html`多了`data-dpr`来现实不同设备下文字用`px`来定义字号，这样能免去`@media`定义N多判断解决文字大小的问题。(此处对于一站式响应的项目会有小坑，在iPad下`dpr`会为`1`会出现字号很小的情况，就看取舍。)
@@ -60,3 +54,9 @@ gulp.task('default', function() {
     font-size: 42px;
 }
 </pre>
+
+##官方 [lib.flexible](https://github.com/amfe/lib-flexible)
+移动端自适应方案
+
+##w3cplus 博客
+@for [w3cplus - 使用Flexible实现手淘H5页面的终端适配] (http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html) 
