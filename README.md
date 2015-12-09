@@ -1,5 +1,5 @@
 #flexible-Demo
-@exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
+@exmaple [example](http://static.dface.cn/flexible-Demo/dest/demo.html)简单的`demo` <a herf="http://static.dface.cn/flexible-Demo/dest/demo.html" target="_blank">dd</a>
 
 ##完整引用举例：
 
