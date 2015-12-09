@@ -1,9 +1,6 @@
 #flexible-Demo
 @exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
 
-<<<<<<< HEAD
-> @for [id]: http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html  [使用Flexible实现手淘H5页面的终端适配]
-=======
 ##完整引用举例：
 
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
@@ -63,4 +60,3 @@ gulp.task('default', function() {
 
 ##w3cplus 博客
 @for [w3cplus - 使用Flexible实现手淘H5页面的终端适配] (http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html) 
->>>>>>> a170490efd5bf5e8f7eb52ca749b87fdc36a4d3d
