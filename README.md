@@ -1,6 +1,6 @@
 #flexible-Demo
 @exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
-<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a>
+<a href="http://search.yahoo.com/" target="_blank" title="Yahoo Search">Yahoo</a>
 
 
 ##完整引用举例：
