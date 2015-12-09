@@ -1,6 +1,5 @@
 #flexible-Demo
-@exmaple [src](https://github.com/EvanHunt/flexible-Demo/tree/master/src)简单的`demo`
-<a href="http://search.yahoo.com/" target="_blank" title="Yahoo Search">Yahoo</a>
+@exmaple <a href="https://github.com/EvanHunt/flexible-Demo/tree/master/src" target="_blank" title="Yahoo Search">简单的`demo`</a>
 
 
 ##完整引用举例：
